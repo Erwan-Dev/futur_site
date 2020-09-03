@@ -1,0 +1,49 @@
+body {
+    background-image: url(../images/old_academy.png);
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.page_block {
+    height: 95%;
+    width: 90%;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.back_button_box {
+    width: 70px;
+    height: 60px;
+    align-self: flex-start;
+    text-align: center;
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#form_left {
+    height: 100%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#form_right {
+    height: 100%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

@@ -1,0 +1,98 @@
+body {
+    height: 100%;
+    background-image: url(../../../../images/old_academy.png);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.back_button_box {
+    width: 70px;
+    height: 60px;
+    align-self: flex-start;
+    text-align: center;
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.3em;
+}
+
+.page_block {
+    height: auto;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border: 10px solid black;
+    border-radius: 30px 30px 30px 30px;
+}
+
+.show {
+    height: 800px;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.title {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.frame_slot {
+    height: 70%;
+    width: 90%;
+    background-image: url(../../../../images/cast1/kyoko_promo_art.png);
+    background-size: cover;
+    background-position: center;
+    border: 1px solid black;
+}
+
+.passiv_block {
+    height: 137px;
+    width: 90%;
+    border: 1px solid black;
+    margin-top: 5px;
+}
+
+.board_slot {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skill_table {
+    height: 90%;
+    width: 90%;
+    border-collapse: collapse;
+    align-self: baseline;
+}
+
+th, td {
+    border: 1px solid black;
+}
+.set {
+    height: 60px;
+    font-size: xx-large;
+}
+
+.ultimate {
+    height: 60px;
+    font-size: xx-large;
+    text-align: center;
+}
